@@ -10,7 +10,7 @@ on:
 
 jobs:
   docker:
-    uses: na4ma4/actions/.github/workflows/makefiles-docker.yml@v1
+    uses: nicko170/actions/.github/workflows/makefiles-docker.yml@v1
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
     with:
